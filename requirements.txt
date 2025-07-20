@@ -1,0 +1,126 @@
+# Build Your CV - AI-Powered Resume Builder
+# Python Dependencies for Backend Services and AI Integration
+
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# AI and Machine Learning
+google-generativeai==0.3.2
+openai==1.3.7
+anthropic==0.7.8
+langchain==0.0.350
+langchain-community==0.0.10
+transformers==4.36.2
+torch==2.1.2
+numpy==1.24.4
+pandas==2.1.4
+scikit-learn==1.3.2
+
+# Resume Processing and Analysis
+python-docx==1.1.0
+PyPDF2==3.0.1
+reportlab==4.0.7
+Pillow==10.1.0
+python-multipart==0.0.6
+
+# Database and Storage
+sqlalchemy==2.0.23
+alembic==1.13.1
+psycopg2-binary==2.9.9
+redis==5.0.1
+boto3==1.34.0
+
+# Authentication and Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+cryptography==41.0.8
+
+# HTTP and API
+httpx==0.25.2
+requests==2.31.0
+aiohttp==3.9.1
+websockets==12.0
+
+# Data Validation and Serialization
+marshmallow==3.20.2
+cerberus==1.3.5
+jsonschema==4.20.0
+
+# Email and Notifications
+sendgrid==6.11.0
+celery==5.3.4
+redis==5.0.1
+
+# File Processing
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+python-magic==0.4.27
+pypandoc==1.12
+
+# Image Processing
+opencv-python==4.8.1.78
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Web Scraping (for job market analysis)
+beautifulsoup4==4.12.2
+scrapy==2.11.0
+selenium==4.16.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx==0.25.2
+factory-boy==3.3.0
+
+# Development Tools
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+pre-commit==3.6.0
+isort==5.12.0
+
+# Monitoring and Logging
+sentry-sdk[fastapi]==1.38.0
+structlog==23.2.0
+prometheus-client==0.19.0
+
+# Configuration Management
+python-decouple==3.8
+pydantic-settings==2.1.0
+
+# Date and Time
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Utilities
+click==8.1.7
+rich==13.7.0
+typer==0.9.0
+tqdm==4.66.1
+
+# Resume Template Generation
+jinja2==3.1.2
+weasyprint==60.2
+html2text==2020.1.16
+
+# ATS Optimization
+spacy==3.7.2
+nltk==3.8.1
+textstat==0.7.3
+
+# Job Market Integration
+linkedin-api==2.0.0
+indeed-api==1.0.0
+
+# Export Formats
+python-pptx==0.6.23
+markdown==3.5.1
+
+# Development Dependencies
+python-dotenv==1.0.0
+watchdog==3.0.0
